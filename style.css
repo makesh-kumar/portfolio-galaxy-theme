@@ -110,6 +110,11 @@ html {
   z-index: 1;
 }
 
+.blog-link {
+  color: #58a6ff;
+  text-decoration: none;
+  font-size:18px;
+}
 .greeting {
   font-size: 2em;
   margin-bottom: 0.2em;
@@ -186,6 +191,10 @@ html {
 .about-me p {
   margin: 1em 0;
   font-size: 1.2em;
+}
+
+.about-me .about-me-content {
+  padding:5px;
 }
 
 .about-me h2 {
@@ -369,6 +378,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+  height: 30px;
   background-color: #333;
   color: white;
   padding: 1px 0;
@@ -396,6 +406,9 @@ footer p {
   color: #58a6ff;
   margin-left: 10px;
   font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-icons a:hover {

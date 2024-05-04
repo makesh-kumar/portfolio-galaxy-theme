@@ -360,7 +360,7 @@ html {
 
 @media (max-width: 768px) {
   .experience-section {
-    width: 348px;
+    width: 80%;
   }
 }
 
